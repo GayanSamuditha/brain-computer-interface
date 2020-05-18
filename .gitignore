@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Custom
+test.py
