@@ -48,6 +48,7 @@ def fast_fourier_transform(signal, sample_rate, plot=False, plot_xlim=[0, 80], p
     p1[1:-1] = 2*p1[1:-1]
 
     if plot:
+        # TODO change to this chart, https://www.oreilly.com/library/view/elegant-scipy/9781491922927/ch04.html
         f = sample_rate*np.arange(0, (signal_length/2)+1)/signal_length
         plt.plot(f, p1, label=plot_label)
         plt.xlim(plot_xlim)

@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, filtfilt, sosfiltfilt, freqz
 
-from bci.fourier_transforms.fast_fourier_transform import fast_fourier_transform
+from bci.fourier_transforms.fft import fast_fourier_transform
 
 def butter_bandpass(lowcut, highcut, sample_rate, order=4, output='ba'):
     r"""
